@@ -1,0 +1,564 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	list-style-type: none;
+
+}
+
+/*顶部广告条开始*/
+#topBox1{
+	width: 100%;
+	height: 50px;
+	background: url(../images/1200cbaja_1.jpg);
+}
+/*顶部广告条结束*/
+
+/*顶部灰色区域开始*/
+#topBox2{
+	width: 100%;
+	height: 35px;
+	background: #F7F7F7;
+	}
+#topBox2 #topBox2Center{
+	width: 1200px;
+	height: 35px;
+	margin: 0 auto;
+	color:#808080;
+	line-height: 35px;
+}
+/*左边区域开始*/
+#topBox2 #topBox2Center #topBox2CenterLeft #first{
+	float: left;
+	
+}
+#topBox2 #topBox2Center #topBox2CenterLeft #second .left{
+	text-decoration: none;
+	padding-left: 1em;
+	color:#808080;
+}
+#topBox2 #topBox2Center #topBox2CenterLeft #second{	
+	padding-left: 1em;
+	float: left;
+}
+/*左边区域结束*/
+/*右边区域开始*/
+#topBox2 #topBox2Center #topBox2CenterRight #right{
+	
+	float: right;
+}
+#topBox2 #topBox2Center #topBox2CenterRight #right li{
+	float: left;
+	list-style-type: none;
+}
+#topBox2 #topBox2Center #topBox2CenterRight #right .rile{
+	color:#808080;
+	text-decoration: none;
+	background: url(../images/vancl.png) no-repeat 50px 2px ;
+	padding-right: 28px;
+}
+#topBox2 #topBox2Center #topBox2CenterRight #right #sjfk{
+	color:#808080;
+	text-decoration: none;
+	background: url(../images/vancl.png) no-repeat 50px -28px ;
+	padding-right: 28px;
+}
+#topBox2 #topBox2Center #topBox2CenterRight #right #zxkf{
+	color:#808080;
+	text-decoration: none;
+	background: url(../images/zxkf.png) no-repeat 52px -4px ;
+	padding-right: 28px;
+}
+#topBox2 #topBox2Center #topBox2CenterRight #right #wx{
+	display: block;
+	width: 22px;
+	height: 35px;
+	background: url(../images/wx.png) no-repeat 0px 6px;
+}
+#topBox2 #topBox2Center #topBox2CenterRight #right #xlwb{
+	display: block;
+	width: 22px;
+	height: 35px;
+	background: url(../images/xlwb.png) no-repeat 0px 6px;
+}
+/*右边区域结束*/
+/*顶部灰色区域结束*/
+
+/*logo+搜索框区域开始*/
+#logoBox{
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+	border-top: none;
+	position: relative;
+}
+/*凡客logo开始*/
+#logoBox #logo{
+	display: block;
+	width: 230px;
+	height: 70px;
+	background: url(../images/vancl.png) no-repeat 0px -53px;
+	position: absolute;
+	left: 30px;
+	top:15px;
+}
+/*凡客logo结束*/
+/*搜索、购物车开始*/
+#logoBox #sousuokuang .sstop{
+	float: right;
+	padding-left: 11px;
+	
+}
+
+#logoBox #sousuokuang .sstop #gwc{
+	display: block;
+	float: left;
+	color:white;
+	text-decoration: none;
+	line-height: 30px;
+	width: 110px;
+	height: 30px;
+	text-indent: 3em;
+	background: url(../images/vancl.png) no-repeat -153px 0px ;
+	position: absolute;
+	top:30px;
+	left:1091px;
+}
+#logoBox #sousuokuang .sstop #ss{
+	display: block;
+	float: left;
+	color:white;
+	text-decoration: none;
+	line-height: 30px;
+	width: 50px;
+	height: 30px;
+	text-indent: 3em;
+	background: url(../images/vancl.png) no-repeat -100px 0px ;
+	position: absolute;
+	top:30px;
+	left:1030px;
+}
+/*搜索、购物车结束*/
+/*搜索框开始*/
+#logoBox #sousuokuang #ssk{
+	border:1px solid #C9CACA;
+	width: 390px;
+	height: 27px;
+	line-height: 27px;
+	text-indent: 6px;
+	position: absolute;
+	top:30px;
+	left:640px;
+}
+/*搜索框结束*/
+/*热门搜索开始*/
+#logoBox #sousuokuang .keywords .rmss{
+	float: left;
+	padding-right: 10px;
+}
+#logoBox #sousuokuang .keywords .rmss div{
+	color:#808080;
+}
+#logoBox #sousuokuang .keywords .rmss a{
+	color:#808080;
+	text-decoration: none;
+}
+#logoBox #sousuokuang .keywords{
+	position: absolute;
+	left: 660px;
+	top: 64px;
+}
+/*热门搜索结束*/
+
+/*logo+搜索框区域结束*/
+
+/*上方导航条开始*/
+#topDaohang{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+}
+/*全部商品分类开始*/
+#topDaohang #topDaohangLeft {
+	width: 256px;
+	height: 50px;
+}
+#topDaohang #topDaohangLeft a{
+	font-size: 17px;
+	line-height: 50px;
+	text-decoration: none;
+	background: #B81C22;
+	text-align: center;
+	color: white;
+}
+/*全部商品分类结束*/
+#topDaohang li{
+	float: left;	
+	width: 118px;
+	height: 50px;
+
+}
+#topDaohang a{
+	display: block;
+	background: #EFEFEF;
+	color: #727171;
+	line-height: 50px;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;	
+
+}
+#topDaohang a:hover{
+	color: #B81C22;
+	background: rgb(229,230,230);
+}
+/*上方导航条结束*/
+/*左边导航条开始*/
+#leftDaohang{
+	width: 254px;
+	height: 500px;
+	position: absolute;
+	left: 74px;
+}
+/*导航大标题开始*/
+#leftDaohang .daohangtitle{
+	z-index: 3;
+	font-size: 16px;
+	text-decoration: none;
+	color: #B81C22;
+	line-height: 30px;
+	background: white;
+}
+/*导航大标题结束*/
+/*男装开始*/
+#leftDaohang #man{
+	position: absolute;
+	left: 40px;
+	top: 5px;
+}
+#leftDaohang dl{
+	border: 1px solid #AFA2A2;
+	border-bottom: none;
+	width: 254px;
+	height: 72px;
+}
+#leftDaohang #tshirt{
+	position: absolute;
+	top: 20px;
+}
+	
+#leftDaohang dl .high{
+	padding:20px 0px 0px 37px;
+	color: #AFA2AE;
+	font-family: "Microsoft YaHei";
+
+}
+
+#leftDaohang dl dt a{
+	font-size: 14px;
+	line-height: 16px;
+	text-decoration: none;
+	color: #AFA2AE;
+}
+#leftDaohang dl dd{
+	padding:5px 0px 10px 26px;
+
+}
+#leftDaohang dl dd a{
+	padding: 0px 5px;
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #B81C22;
+}
+#leftDaohang dl dd .dnext{
+	color: #727171;
+}
+#leftDaohang dl dd .dnext:hover{
+	color: #B81C22;
+	background: #EDEEEE;
+}
+#leftDaohang dl .low{
+	padding:10px 0px 0px 37px;
+	color: #AFA2AE;
+	font-family: "Microsoft YaHei";
+}
+#leftDaohang .dllow{
+	height: 62px;
+}
+#leftDaohang #chenshan{
+	position: absolute;
+	top: 92px;
+/*	height: 63px;*/
+}
+#leftDaohang #waitao{
+	position: absolute;
+	top: 154px;
+/*	height: 63px;*/
+}
+#leftDaohang #kuzhuang{
+/*	height: 63px;*/
+	position: absolute;
+	top: 216px;
+	border-bottom:1px solid #AFA2A2; 
+}
+/*男装结束*/
+/*女装开始*/
+#leftDaohang #woman{
+	position: absolute;
+	left: 40px;
+	top: 283px;
+	}
+#leftDaohang #shangzhuang{
+	position: absolute;
+	top: 298px;
+}
+#leftDaohang #nvkuzhuang{
+/*	height: 63px;*/
+	position: absolute;
+	top: 370px;
+	border-bottom:1px solid #AFA2A2; 
+}
+/*女装结束*/
+/*袜品开始*/
+#leftDaohang #jiaju{
+	position: absolute;
+	left: 40px;
+	top: 437px;
+	}
+#leftDaohang #wapin{
+	position: absolute;
+	top: 452px;
+	height: 49px;
+	border-bottom:1px solid #AFA2A2; 
+}
+#leftDaohang #wapin dd{
+	padding:20px 0px 10px 26px;
+}
+/*袜品结束*/
+
+/*左边导航条结束*/
+/*轮播图开始*/
+#flashBox{
+	position: absolute;
+	left:342px; 
+	top: 245px;
+	height: 500px;
+
+}
+#flashBox #flash1{
+	padding-right: 10px;
+}
+/*轮播图结束*/
+/*右边小图开始*/
+
+img{
+	border: none;
+
+}
+#flashBox ul{
+	border: 1px solid #C9C9C9;
+	position: absolute;
+	left: 720px;
+	top: 0px;
+	
+}
+#flashBox ul #y1{
+	border-bottom: 1px solid #C9C9C9;
+}
+/*右边小图结束*/
+#next{
+	position: absolute;
+	top:745px;
+	left: 74px;
+	margin: 0 auto;
+	width: 1200px;
+	height: 1355px;
+}
+#next p{
+	font-size: 17px;
+	line-height: 40px;
+	color: #70576F;
+	padding-left: 33px;
+}
+#next li{
+	float: left;
+	padding-bottom: 15px;
+}
+#next img{
+	float: left;
+	padding-right: 10px;
+}
+/*新品上架开始*/
+#next #xpsj{
+	width: 1200px;
+	height: 290px;
+	position: absolute;
+	background: 1px solid orange;
+
+}
+
+/*新品上架结束*/
+
+/*热销商品开始*/
+#next #rxsp #rxbig{
+	width: 473px;
+}
+#next img.last{
+	padding-right: 0px;
+}
+#next #rxsp{
+	width: 1200px;
+	position: absolute;
+	top:290px;
+
+}
+
+/*热销商品结束*/
+/*特价商品开始*/
+#next #tjsp{
+	position: absolute;
+	top: 823px;
+}
+/*特价商品结束*/
+/*关于凡客开始*/
+#aboutVancl{
+	width: 1200px;
+	height: 190px;
+	margin: 0 auto;
+	position: absolute;
+	top:2110px;
+	left: 74px;
+	border: 1px solid #E0E0E1;
+}
+#aboutVancl ul{
+	padding-top: 30px;
+}
+#aboutVancl li{
+	float: left;
+	border-right: 1px solid #E0E0E1;
+	font-family: "Microsoft YaHei";
+	height: 138px;
+    padding-left:70px;
+    width: 128px;
+    
+}
+#aboutVancl li a{
+	text-decoration: none;
+	text-align: center;
+	color: #333333;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: "Microsoft YaHei";
+
+}
+#aboutVancl li a:hover{
+	color: #A10000;
+}
+#aboutVancl li .abtitle{
+	padding-bottom: 15px;
+	font-size: 13px;
+	color: #333333;
+}
+#aboutVancl li.ablast{
+	border-right: none;
+}
+/*关于凡客结束*/
+/*实线上图标、退换货图标开始*/
+#topjpg{
+	position: absolute;
+	top: 2319px;
+	left: 74px;
+	margin: 11px 0px;
+}
+#topjpg li{
+	float: left;
+}
+#topjpg li a{
+	display: block;
+	width: 300px;
+	height: 30px;
+
+
+}
+#topjpg li #topjpg1{
+	background: url("../images/vancl.png") no-repeat 88px -120px;
+}
+#topjpg li #topjpg2{
+	background: url("../images/vancl.png") no-repeat 68px -160px;
+}
+#topjpg li #topjpg3{
+	background: url("../images/vancl.png") no-repeat 70px -203px;
+}
+#topjpg li #topjpg4{
+	background: url("../images/vancl.png") no-repeat 65px -245px;
+}
+/*实线上图标、退换货图标结束*/
+/*实线下方开始*/
+#bottomText{
+	height: 33px;
+	position: absolute;
+	top: 2371px;
+	width: 100%;
+
+}
+#bottomText p{
+	border-top: 1px solid #3E3A39;
+	font-size: 12px;
+	line-height: 33px;
+	text-align: center;
+	font-family: "Microsoft YaHei";
+	color: #3E3A39;
+}
+#bottomJpg{
+	position: absolute;
+	top: 2424px;
+	left: 190px;
+	width: 980px;
+	height: 76px;
+	margin-bottom:25px;
+	text-align: center;
+}
+
+#bottomJpg a,#bottomJpg span{
+	margin: 0 10px;
+
+}
+#bottomJpg #bottomJpg1{
+	display: inline-block;
+	background: url("../images/vancl2.png") no-repeat scroll 0 -581px;
+	width: 113px;
+	height: 42px;	
+}
+#bottomJpg #bottomJpg2{
+	display: inline-block;
+	background: url(../images/vancl2.png) no-repeat 0px -629px;
+	width: 159px;
+	height: 46px;
+}
+#bottomJpg #bottomJpg3{
+	display: inline-block;
+	background: url(../images/vancl2.png) no-repeat 0px -674px;
+	width: 96px;
+	height: 46px;
+}
+#bottomJpg #bottomJpg4{
+	display: inline-block;
+	background: url(../images/vancl2.png) no-repeat -98px -674px;
+	width: 100px;
+	height: 46px;
+}
+#bottomJpg #bottomJpg5{
+	display: inline-block;
+	background: url(../images/vancl2.png) no-repeat -198px -674px;
+	width: 48px;
+	height: 46px;
+}
+#bottomJpg img{
+	width: 128px;
+	height: 46px;
+}
+/*实线下方结束*/
